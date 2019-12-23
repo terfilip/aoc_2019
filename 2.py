@@ -14,8 +14,6 @@ pyperclip.copy(octh.codes[0])
 
 octh.reset()
 
-noun = 0
-verb = 0
 tgt = 19690720
 
 for noun in range(100):
@@ -33,3 +31,4 @@ for noun in range(100):
             print(verb)
             print(f'ans: {ans}')
             pyperclip.copy(ans)
+            break
